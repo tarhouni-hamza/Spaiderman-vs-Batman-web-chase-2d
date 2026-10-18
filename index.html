@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Web Chase 2D</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud" class="hide">
+    <div id="row"><div><small>Score</small>
+        <span id="score">0</span></div><div style="text-align:center">
+            <small>Level</small>
+            <span id="lvl">1</span>
+        </div><div style="text-align:right">
+            <small>Coins</small><span id="coins">0</span></div></div>
+<div class="bar"><i id="gap"></i></div><div class="lb">Gap to the thief</div>
+<div class="bar" style="height:6px;width:40%"><i id="fly"></i></div>
+<div class="lb">Web-wing glide</div></div>
+<div id="flash"></div><div id="toast"></div>
+<button id="mute" type="button">Sound on</button>
+<div id="panel">
+<h1 id="title">Web Chase</h1>
+<p id="msg">The Phantom Rider is fleeing across the rooftops on a stubborn donkey. Swing after him and don’t let the gap close behind you.</p>
+<p><kbd>Hold Space</kbd> or click: web-swing to the highlighted anchor. <kbd>→</kbd> pumps the swing, 
+    <kbd>↓</kbd> reels in faster.<br>Release while rising to fly. A release at 45° is a perfect one and adds speed.<br><kbd>↑
+
+    </kbd> jump, press again in the air for a web-flip. No anchor? Hold to glide.</p>
+<button id="go" type="button">Start chase</button>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
