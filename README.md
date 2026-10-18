@@ -2,7 +2,7 @@
 
 A side-scrolling chase game that runs in the browser. A web-slinging hero swings across a night skyline after a caped thief riding a donkey. Built with plain HTML, CSS and JavaScript on a 2D canvas. No frameworks, no build step, no audio files.
 
-**Play it:** https://YOUR-USERNAME.github.io/web-chase-2d/
+
 
 ## Controls
 
