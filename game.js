@@ -447,7 +447,7 @@
     if (h.att) h.flip = true;
     h.webT = Math.min(1, h.webT + dt * 12);
     if (h.spinT > 0) h.spinT -= dt;
-    // Smoothed body rotation
+   
     var tr;
     if (h.glide) tr = 1.3;
     else if (h.att) tr = Math.atan2(h.att.x - h.x, h.y - h.att.y) * 0.9;
